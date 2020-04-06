@@ -52,11 +52,9 @@ function updateBinary({hour, min, sec}) {
         const preNum = hoursBin[i]
         e.forEach((f, j) => {
             if (preNum[j] == '1') {
-                f.innerHTML = '1'
-                f.style.backgroundColor = '#8ac249'
+                f.classList.add('active')
             } else {
-                f.innerHTML = '0'
-                f.style.backgroundColor = 'white'
+                f.classList.remove('active')
             }
         })
     })
@@ -65,11 +63,9 @@ function updateBinary({hour, min, sec}) {
         const preNum = minsBin[i]
         e.forEach((f, j) => {
             if (preNum[j] == '1') {
-                f.innerHTML = '1'
-                f.style.backgroundColor = '#8ac249'
+                f.classList.add('active')
             } else {
-                f.innerHTML = '0'
-                f.style.backgroundColor = 'white'
+                f.classList.remove('active')
             }
         })
     })
@@ -78,11 +74,9 @@ function updateBinary({hour, min, sec}) {
         const preNum = secsBin[i]
         e.forEach((f, j) => {
             if (preNum[j] == '1') {
-                f.innerHTML = '1'
-                f.style.backgroundColor = '#8ac249'
+                f.classList.add('active')
             } else {
-                f.innerHTML = '0'
-                f.style.backgroundColor = 'white'
+                f.classList.remove('active')
             }
         })
     })
