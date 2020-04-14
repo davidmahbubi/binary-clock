@@ -42,7 +42,7 @@
 }
 
 .footer-note a:hover {
-    color: green;
+    color: #8bc34a;
 }
 
 td {
@@ -57,5 +57,5 @@ td {
 }
 
 .active {
-    background-color: green;
+    background-color: #8bc34a;
 }
